@@ -22,7 +22,7 @@ for (member in 1:nrow(member_list)) {
     # add line to the index file
     index_page <- file("index.qmd", open = "a")
     writeLines(c(
-        paste0("- [", member_data$First.Name, " ", member_data$Last.Name, "](./", name, ".html)")
+        paste0("- [", member_data$First.Name, " ", member_data$Last.Name, "](./files/", name, ".html)")
     ), index_page)
     close(index_page)
 }
