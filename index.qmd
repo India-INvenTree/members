@@ -1,0 +1,9 @@
+---
+title: "Member directory"
+---
+
+List of INvenTree members in alphabetical order.
+
+
+- [Test Member](./Test_Member.html)
+- [Another Member](./Another_Member.html)
