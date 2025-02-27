@@ -11,7 +11,7 @@
     "href": "files/Another_Member.html",
     "title": "Another Member",
     "section": "",
-    "text": "Another Member\n\n\n\nFake University  anothermember@fakeuniversity.edu"
+    "text": "anothermember@fakeuniversity.edu\n\nFake University  anothermember@fakeuniversity.edu"
   },
   {
     "objectID": "about.html",
@@ -25,6 +25,6 @@
     "href": "files/Test_Member.html",
     "title": "Test Member",
     "section": "",
-    "text": "Test Member\n\n\n\nFake University  testmember@fakeuniversity.edu"
+    "text": "testmember@fakeuniversity.edu\n\nFake University  testmember@fakeuniversity.edu"
   }
 ]

@@ -5,6 +5,8 @@ title: "Another Member"
 ::::{.columns}
 :::{.column}
 ![Another Member](member_profiles/2.png)
+<br>
+[{{< iconify bi mdi:email size=1.1em >}} anothermember@fakeuniversity.edu](mailto:anothermember@fakeuniversity.edu){.btn .btn-outline-primary} 
 :::
 :::{.column}
 Fake University
