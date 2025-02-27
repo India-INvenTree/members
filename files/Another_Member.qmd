@@ -1,4 +1,15 @@
 ---
 title: "Another Member"
-# aliases: Another_Member.html
 ---
+
+::::{.columns}
+:::{.column}
+![Another Member](member_profiles/2.png)
+:::
+:::{.column}
+Fake University
+<br>
+anothermember@fakeuniversity.edu
+<br>
+:::
+::::

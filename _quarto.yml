@@ -10,7 +10,7 @@ website:
       - href: index.qmd
         text: Home
       - href: about.qmd
-        text: Get Involved
+        text: Become a Member
     right:
       - text: "{{< iconify bi envelope size=1.1em title='E-mail' >}}"
         href: "mailto:indiainventree@gmail.com"
