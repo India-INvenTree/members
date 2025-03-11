@@ -4,14 +4,20 @@ title: "Another Member"
 
 ::::{.columns}
 :::{.column}
-![Another Member](member_profiles/2.png)
+![Another Member](member_profiles/2.png){.circular-photo}
 <br>
-[{{< iconify bi mdi:email size=1.1em >}} anothermember@fakeuniversity.edu](mailto:anothermember@fakeuniversity.edu){.btn .btn-outline-primary} 
+<!-- [{{< iconify bi mdi:email size=1.1em >}} anothermember@fakeuniversity.edu](mailto:anothermember@fakeuniversity.edu){.btn .btn-outline-primary}  -->
 :::
 :::{.column}
-Fake University
-<br>
-anothermember@fakeuniversity.edu
-<br>
+Fake University  
+[anothermember@fakeuniversity.edu](mailto:anothermember@fakeuniversity.edu)  
+
+Description
+
+[{{< iconify bi academicons:google-scholar-square size=1.1em title='Publications' >}} Publications](https://scholar.google.com/citations?user=6kEpMSEAAAAJ&hl=en){.btn .btn-outline-primary}
+[{{< iconify bi github size=1.1em title='GitHub' >}} GitHub](https://github.com/India-INvenTree){.btn .btn-outline-primary}
+[{{< iconify bi simple-icons:orcid size=1.1em title='ORCiD' >}} ORCiD](){.btn .btn-outline-primary}
+[{{< iconify bi mdi:web size=1.1em title='Website' >}} Website](){.btn .btn-outline-primary}
+[{{< iconify bi academicons:researchgate size=1.1em title='ResearchGate' >}} ResearchGate](){.btn .btn-outline-primary}
 :::
 ::::

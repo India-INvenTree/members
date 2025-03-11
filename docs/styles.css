@@ -30,3 +30,24 @@
     color: #cccccc;
     /* Change this to your desired text color */
 }
+
+/* Make images circular */
+.circular-photo {
+    border-radius: 50%;
+    width: 100%;
+    /* Adjust as needed */
+    height: auto;
+    /* Maintain aspect ratio */
+}
+
+/* Center align text vertically in grid cell */
+.center-vertical {
+    display: flex;
+    align-items: center;
+    height: 100%;
+}
+
+/* Center align text within .r-stack */
+.center-text {
+    text-align: center;
+}
