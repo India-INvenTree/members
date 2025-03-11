@@ -3,29 +3,37 @@ project:
   output-dir: docs
 
 website:
-  title: "INvenTree members"
+  title: "INvenTree member directory" 
+    # - text: "INvenTree"
+    #   href: "https://india-inventree.github.io/"
   navbar:
     pinned: true
     left:
-      - href: index.qmd
-        text: Home
       - href: about.qmd
         text: Become a Member
     right:
+      - href: https://india-inventree.github.io/
+        text: INvenTree Home
+        icon: house-door-fill
       - text: "{{< iconify bi envelope size=1.1em title='E-mail' >}}"
         href: "mailto:indiainventree@gmail.com"
       - text: "{{< iconify bi github size=1.1em title='GitHub' >}}"
         href: https://github.com/India-INvenTree
         rel: me
+        target: "_new"
   page-footer:
-    # left: |
-    #   <span class="faux-block">{{< fa brands creative-commons >}} {{< var years >}} Andrew Heiss</span>
-    #   <span class="faux-block">All content licensed under<br>[{{< fa brands creative-commons >}} {{< fa brands creative-commons-by >}} Creative Commons CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)</span>      
-    # center: |
-    #   <span class="faux-block">{{< fa brands orcid >}} <strong>ORCID</strong> [{{< var orcid >}}](https://orcid.org/{{< var orcid >}})</span>
-    #   <span class="faux-block">{{< fa key >}} [PGP public key]({{< var pgp.key >}}) &emsp; {{< fa fingerprint >}} Fingerprint:</strong><br><span class="fingerprint">{{< var pgp.fingerprint >}}</span></span>
-      right: |
-        <span class="faux-block">Made with {{< fa brands r-project >}} and [Quarto](https://quarto.org/)</span>
+    border: true
+    left: "&#169; 2025 INvenTree"
+    center:
+      - text: "Code of conduct"
+        href: https://india-inventree.github.io/coc
+        icon: check-circle
+      - text: "Accessibility"
+        href: https://india-inventree.github.io/accessibility
+        icon: universal-access-circle
+      # - text: License
+      #   href: license.qmd
+    right: "made with ︎♥️ & [Quarto](https://quarto.org)"
 
 
 format:

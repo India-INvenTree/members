@@ -1,6 +1,9 @@
 ---
-title: Member directory
+title: List of INvenTree members
+listing: 
+    contents: 
+        - "files/*.qmd"
+    type: grid
+title-block-banner-color: "#ffffff"
+title-block-banner: "#6ab04c"
 ---
-
-- [Another Member](./files/Another_Member.html)
-- [Test Member](./files/Test_Member.html)

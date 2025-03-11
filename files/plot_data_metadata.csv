@@ -1,0 +1,26 @@
+﻿column.name,description,data.type
+plotID,unique plot ID within the INvenTree metadataset,numeric/alphanumeric
+plot.name,plot name given by PI e.g. Alexandria,character
+plot.group,"plot group or network, e.g. LEMoN",character
+lat,"decimal latitude of plot centre. Ideally unique lat/long for each plotID, but can be grouped by a few closely associated plots if needed",numeric
+long,"decimal longitude of plot centre. Ideally unique lat/long for each plotID, but can be grouped by a few closely associated plots if needed",numeric
+biome.from.PI,biome name as described by PI. INvenTree will use some standardised layers to define this post hoc,character
+is.circular,is the plot circular,logical
+diameter.in.m,"diameter of the plot in meters if circular, else NA",numeric/NA
+side1.in.m,measurement of one side of the plot in meters if not circular,numeric/NA
+side2.in.m,measurement of other side of the plot in meters if not circular,numeric/NA
+PI.memberIDs.commasep,member IDs of all PIs from the INvenTree member list,string of numeric separated by commas
+established.yr,year of establishment,
+is.repeat,is the plot intended to be censused more than once?,logical
+census.freq.in.yrs,"number of years in which recensus is done, if recensused",numeric/NA
+no.of.census,number of censuses completed as of last update,numeric
+last.census,year of last census,numeric/NA
+is.active,is it actively recensued,logical
+paper.published,is there a peer reviewed publication using data from this plot?,logical
+plot.summary.accessible,"is plot level summaries of common metrics - richness, abundance etc - accessible in an online repository?",logical
+species.summary.accessible,"is species level summaries, within the plot, of abundance, basal area etc accessible in an online repository",logical
+stem.data.accessible,is stem level data from this plot accessible for reuse,logical
+paperDOI,doi of the paper or papers from this plot,link
+paperID.commasep,comma separated paperIDs from this plot crossrefed to the INvenTree metadataset,"numeric string, comma separated"
+dataDOI,doi where data is accessible,link
+notes,any additional notes from PI or INvenTree,
