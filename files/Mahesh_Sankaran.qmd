@@ -1,29 +1,61 @@
 ---
-title: "Mahesh Sankaran"
+title: "Mahesh Sankaran" #THIS NEEDS TO BE MANUALLY SET
 ---
 
 ```{r echo=F, message=F, warning=F}
 memberlist <- read.csv("member_list.csv")
-memberid <- 1
+# memberlist <- read.csv("files/member_list.csv")
+
+memberid <- 1 # THIS NEEDS TO BE MANUALLY SET
+
+member <- memberlist[memberid, ]
+
+# what information categories do we have?
+cats <- names(member[which(!is.na(member))])
+# remove memberid, first.name, last.name, institution, email
+`%nin%` <- Negate(`%in%`)
+cats <- cats[which(cats %nin% c("memberID", "first.name", "last.name", "institution", "email"))]
+
+# make this a long df
+cat_vals <- as.data.frame(t(member[, cats]))
+colnames(cat_vals) <- "value"
+cat_vals$category <- rownames(cat_vals)
 ```
 
 ::::{.columns}
 :::{.column}
-![`r paste0(memberlist[memberid,]$first.name, " ", memberlist[memberid,]$last.name)`](`r paste0("member_profiles/", memberid,".jpg")`){.circular-photo}
+![`r paste0(member$first.name, " ", member$last.name)`](`r paste0("member_profiles/", memberid,".jpg")`){.circular-photo}
 <br>
 <!-- [{{< iconify bi mdi:email size=1.1em >}} testmember@fakeuniversity.edu](mailto:testmember@fakeuniversity.edu){.btn .btn-outline-primary}  -->
 :::
 :::{.column}
-`r memberlist[memberid,]$institution`  
-`r memberlist[memberid,]$email`  
+`r member$institution`  
+`r member$email`  
 
 Description
 
-[{{< iconify bi academicons:google-scholar-square size=1.1em title='Publications' >}} Publications](`r memberlist[memberid,]$googlescholar`){.btn .btn-outline-primary}
-[{{< iconify bi github size=1.1em title='GitHub' >}} GitHub](`r memberlist[memberid,]$github`){.btn .btn-outline-primary}
-[{{< iconify bi simple-icons:orcid size=1.1em title='ORCiD' >}} ORCiD](){.btn .btn-outline-primary}
-[{{< iconify bi mdi:web size=1.1em title='Website' >}} Website](){.btn .btn-outline-primary}
-[{{< iconify bi academicons:researchgate size=1.1em title='ResearchGate' >}} ResearchGate](){.btn .btn-outline-primary}
+```{r assembling icons, echo=F, message=F, warning=F}
+icons <- read.csv("cat_buttons.csv")
+# icons <- read.csv("files/cat_buttons.csv")
+
+# merge these with the categories
+icons <- merge(cat_vals, icons, by = "category", all.x = T)
+
+# make an empty string to add lines to
+icon_string <- ""
+
+for (i in 1:nrow(icons)) {
+    cat <- icons$category[i]
+    title <- icons$title[i]
+    icon <- icons$icon[i]
+    link <- icons$value[i]
+    text <- paste0("[{{< iconify bi ", icon, " size=1.1em title='", title, "' >}} ", title, "](", link, "){.btn .btn-outline-primary}  ")
+    # add this to the string
+    icon_string <- paste0(icon_string, text)
+}
+```
+
+`r icon_string`
 
 :::
 ::::
