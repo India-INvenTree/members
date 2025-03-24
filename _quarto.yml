@@ -10,14 +10,14 @@ website:
     left:
        - href: https://india-inventree.github.io/
          text: INvenTree
-       - href: https://india-inventree.github.io/resources/
+       - href: https://india-inventree.github.io/resources.html
          text: "Resources"
          icon: book
        - text: "People"
          icon: person-circle
          menu:
           - text: "Working Group"
-            href: https://india-inventree.github.io/team/
+            href: https://india-inventree.github.io/team.html
             # icon: list-check
             # icon: puzzle-fill
             icon: tools
@@ -26,7 +26,7 @@ website:
             target: "_new"
             # icon: mortarboard-fill
             icon: person-badge-fill
-       - href: https://india-inventree.github.io/join/
+       - href: https://india-inventree.github.io/join.html
         # text: "<span class='btn btn-primary'>Click here</span>"
          text: "Get Involved"
         # icon: person-add
@@ -43,7 +43,7 @@ website:
     left: "&#169; 2025 INvenTree"
     center:
       - text: "[Code of Conduct](https://india-inventree.github.io/coc)"
-        href: https://india-inventree.github.io/coc
+        href: https://india-inventree.github.io/coc.html
         icon: check-circle
         target: "_new"
       - text: "Accessibility"
