@@ -1,5 +1,5 @@
 ---
-title: List of INvenTree members
+title: Member directory
 listing: 
     contents: 
         - "files/*.qmd"
