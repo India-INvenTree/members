@@ -3,18 +3,35 @@ project:
   output-dir: docs
 
 website:
-  title: "INvenTree member directory" 
-    # - text: "INvenTree"
-    #   href: "https://india-inventree.github.io/"
+  title: "Member directory" 
   navbar:
+    title: false  
     pinned: true
     left:
-      - href: about.qmd
-        text: Become a Member
+       - href: https://india-inventree.github.io/
+         text: INvenTree
+       - href: https://india-inventree.github.io/resources/
+         text: "Resources"
+         icon: book
+       - text: "People"
+         icon: person-circle
+         menu:
+          - text: "Working Group"
+            href: https://india-inventree.github.io/team/
+            # icon: list-check
+            # icon: puzzle-fill
+            icon: tools
+          - text: "Member Directory {{< iconify bi cuia:open-in-new-tab-outline size=1.1em >}}"
+            href: "https://india-inventree.github.io/members/"
+            target: "_new"
+            # icon: mortarboard-fill
+            icon: person-badge-fill
+       - href: https://india-inventree.github.io/join/
+        # text: "<span class='btn btn-primary'>Click here</span>"
+         text: "Get Involved"
+        # icon: person-add
+         icon: sign-merge-left
     right:
-      - href: https://india-inventree.github.io/
-        text: INvenTree Home
-        icon: house-door-fill
       - text: "{{< iconify bi envelope size=1.1em title='E-mail' >}}"
         href: "mailto:indiainventree@gmail.com"
       - text: "{{< iconify bi github size=1.1em title='GitHub' >}}"
@@ -25,9 +42,10 @@ website:
     border: true
     left: "&#169; 2025 INvenTree"
     center:
-      - text: "Code of conduct"
+      - text: "[Code of Conduct](https://india-inventree.github.io/coc)"
         href: https://india-inventree.github.io/coc
         icon: check-circle
+        target: "_new"
       - text: "Accessibility"
         href: https://india-inventree.github.io/accessibility
         icon: universal-access-circle

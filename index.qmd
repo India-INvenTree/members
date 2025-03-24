@@ -8,3 +8,7 @@ listing:
 title-block-banner-color: "#ffffff"
 title-block-banner: "#6ab04c"
 ---
+<div style="text-align: center;">
+[Become a Member](about.qmd){.btn .btn-primary .btn-lg}
+</div>
+
