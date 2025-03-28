@@ -14,7 +14,7 @@ member <- memberlist[memberid, ]
 cats <- names(member[which(!is.na(member))])
 # remove memberid, first.name, last.name, institution, email
 `%nin%` <- Negate(`%in%`)
-cats <- cats[which(cats %nin% c("memberID", "first.name", "last.name", "institution", "email"))]
+cats <- cats[which(cats %nin% c("memberID", "first.name", "last.name", "institution", "email", "position", "keywords", "sites", "career.stage", "inventree.role"))]
 
 # make this a long df
 cat_vals <- as.data.frame(t(member[, cats]))
@@ -29,12 +29,17 @@ cat_vals$category <- rownames(cat_vals)
 <!-- [{{< iconify bi mdi:email size=1.1em >}} testmember@fakeuniversity.edu](mailto:testmember@fakeuniversity.edu){.btn .btn-outline-primary}  -->
 :::
 :::{.column}
-`r member$institution`  
-`r member$email`  
+**`r member$position`**  
+**`r member$institution`**  
+Email: [`r member$email`](mailto:`r member$email`)
 
 Mahesh Sankaran heads the Biodiversity and Ecosystems Ecology Research group at the National Centre for Biological Sciences, Bengaluru. 
 His research focuses on understanding interactions and feedbacks between climate, biogeochemistry, fires and herbivory, and ecosystem properties. 
 He focuses mainly on savannas and grasslands in Africa and India.
+
+*Keywords:* `r member$keywords`
+
+*Study sites:* `r member$sites`  
 
 ```{r assembling icons, echo=F, message=F, warning=F}
 icons <- read.csv("cat_buttons.csv")
