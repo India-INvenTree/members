@@ -1,14 +1,17 @@
 ---
 title: "Mahesh Sankaran" #THIS NEEDS TO BE MANUALLY SET
+categories: 
+ - current working group
+ - faculty
 ---
 
 ```{r echo=F, message=F, warning=F}
 memberlist <- read.csv("member_list.csv")
 # memberlist <- read.csv("files/member_list.csv")
 
-memberid <- 1 # THIS NEEDS TO BE MANUALLY SET
+memberid <- "M1" # THIS NEEDS TO BE MANUALLY SET
 
-member <- memberlist[memberid, ]
+member <- memberlist[which(memberlist$memberID == memberid), ]
 
 # what information categories do we have?
 cats <- names(member[which(!is.na(member))])
