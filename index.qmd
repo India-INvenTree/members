@@ -6,7 +6,7 @@ listing:
     type: grid
     categories: true
     grid-columns: 4
-    image-height: 200px
+    image-height: 160px
     image-placeholder: "member_profiles/placeholder.png"
 title-block-banner-color: "#ffffff"
 title-block-banner: "#6ab04c"
