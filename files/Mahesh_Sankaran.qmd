@@ -69,3 +69,8 @@ for (i in 1:nrow(icons)) {
 
 :::
 ::::
+---
+
+<div style="text-align: center;">
+[{{< iconify bi icon-park-outline:return>}} Back to member directory](../index.qmd)
+</div>
