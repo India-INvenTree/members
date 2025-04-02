@@ -78,9 +78,9 @@ ul.task-list li input[type="checkbox"] {
     }
 
     const options = {
-      valueNames: ['listing-title','listing-author','listing-image','listing-description',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
+      valueNames: ['listing-title','listing-author','listing-image','listing-description','listing-categories',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
       
-      searchColumns: ["listing-title","listing-author","listing-image","listing-description"],
+      searchColumns: ["listing-title","listing-author","listing-image","listing-description","listing-categories"],
     };
 
     window['quarto-listings'] = window['quarto-listings'] || {};
@@ -230,9 +230,9 @@ window.Quarto = {
   </header><div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
         
-    </div>
+    <h5 class="quarto-listing-category-title">Categories</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">All <span class="quarto-category-count">(2)</span></div><div class="category" data-category="Y3VycmVudCUyMHdvcmtpbmclMjBncm91cA==">current working group <span class="quarto-category-count">(2)</span></div><div class="category" data-category="ZmFjdWx0eQ==">faculty <span class="quarto-category-count">(2)</span></div></div></div>
 <!-- main -->
 <main class="content quarto-banner-title-block" id="quarto-document-content">
 
@@ -254,6 +254,14 @@ window.Quarto = {
 <h5 class="no-anchor card-title listing-title">
 Mahesh Sankaran
 </h5>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('Y3VycmVudCUyMHdvcmtpbmclMjBncm91cA=='); return false;">
+current working group
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('ZmFjdWx0eQ=='); return false;">
+faculty
+</div>
+</div>
 <div class="card-text listing-description">
  <br> <!-- [ testmember@fakeuniversity.edu](mailto:testmember@fakeuniversity.edu){.btn .btn-outline-primary}  -->
 </div>
@@ -274,6 +282,14 @@ Mahesh Sankaran
 <h5 class="no-anchor card-title listing-title">
 Tanaya Nair
 </h5>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('Y3VycmVudCUyMHdvcmtpbmclMjBncm91cA=='); return false;">
+current working group
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('ZmFjdWx0eQ=='); return false;">
+faculty
+</div>
+</div>
 <div class="card-text listing-description">
  <br> <!-- [ testmember@fakeuniversity.edu](mailto:testmember@fakeuniversity.edu){.btn .btn-outline-primary}  -->
 </div>
