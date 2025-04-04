@@ -2,7 +2,7 @@
 title: "Krishna Anujan"
 categories: 
  - current working group
- - Postdoctoral Fellow
+ - postdoc
 ---
 
 ```{r echo=F, message=F, warning=F}
