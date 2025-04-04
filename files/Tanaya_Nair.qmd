@@ -35,7 +35,7 @@ cat_vals$category <- rownames(cat_vals)
 :::{.column}
 **`r member$position`**\
 **`r member$institution`**\
-Email: [`r member$email`](mailto:%60r%20member$email%60)
+Email: [`r member$email`](mailto:`r member$email`)
 
 Tanaya Nair (she/her) is a scholar at the Oxford India Centre for Sustainable Development and is reading a DPhil in the School of Geography and the Environment at University of Oxford on a project looking at nutrient cycling in tropical forests and savannas in Africa and Asia. She is actively researching and workshopping how art and science can come together through participatory interventions to roll out research more meaningfully and urgently in the world.
 

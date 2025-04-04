@@ -34,7 +34,7 @@ cat_vals$category <- rownames(cat_vals)
 :::{.column}
 **`r member$position`**\
 **`r member$institution`**\
-Email: [`r member$email`](mailto:%60r%20member$email%60)
+Email: [`r member$email`](mailto:`r member$email`)
 
 My research focuses on understanding and predicting the effects of global change drivers on tropical forest community dynamics. I am also interested in working towards knowledge equity in the tropical forest sciences through collaborative science and creative outputs.
 
