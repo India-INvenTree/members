@@ -1,15 +1,15 @@
 ---
-title: "Tanaya Nair"
+title: "Krishna Anujan"
 categories: 
  - current working group
- - PhD student
+ - Postdoctoral Fellow
 ---
 
 ```{r echo=F, message=F, warning=F}
 memberlist <- read.csv("member_list.csv")
 # memberlist <- read.csv("files/member_list.csv")
 
-memberid <- "M3" # THIS NEEDS TO BE MANUALLY SET
+memberid <- "M4" # THIS NEEDS TO BE MANUALLY SET
 
 member <- memberlist[which(memberlist$memberID == memberid), ]
 
@@ -24,7 +24,6 @@ cat_vals <- as.data.frame(t(member[, cats]))
 colnames(cat_vals) <- "value"
 cat_vals$category <- rownames(cat_vals)
 ```
-
 ::::{.columns}
 :::{.column style="padding-right: 30px;"}
 ![`r paste0(member$first.name, " ", member$last.name)`](`r paste0("member_profiles/", memberid,".jpg")`){.circular-photo}
@@ -36,7 +35,7 @@ cat_vals$category <- rownames(cat_vals)
 **`r member$institution`**\
 Email: [`r member$email`](mailto:%60r%20member$email%60)
 
-Tanaya Nair (she/her) is a scholar at the Oxford India Centre for Sustainable Development and is reading a DPhil in the School of Geography and the Environment at University of Oxford on a project looking at nutrient cycling in tropical forests and savannas in Africa and Asia. She is actively researching and workshopping how art and science can come together through participatory interventions to roll out research more meaningfully and urgently in the world.
+My research focuses on understanding and predicting the effects of global change drivers on tropical forest community dynamics. I am also interested in working towards knowledge equity in the tropical forest sciences through collaborative science and creative outputs.
 
 *Keywords:* `r member$keywords`
 

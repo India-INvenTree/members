@@ -1,15 +1,15 @@
 ---
-title: "Tanaya Nair"
+title: "Neha Mohanbabu"
 categories: 
  - current working group
- - PhD student
+ - Postdoctoral Fellow
 ---
 
 ```{r echo=F, message=F, warning=F}
 memberlist <- read.csv("member_list.csv")
 # memberlist <- read.csv("files/member_list.csv")
 
-memberid <- "M3" # THIS NEEDS TO BE MANUALLY SET
+memberid <- "M2" # THIS NEEDS TO BE MANUALLY SET
 
 member <- memberlist[which(memberlist$memberID == memberid), ]
 
@@ -36,11 +36,10 @@ cat_vals$category <- rownames(cat_vals)
 **`r member$institution`**\
 Email: [`r member$email`](mailto:%60r%20member$email%60)
 
-Tanaya Nair (she/her) is a scholar at the Oxford India Centre for Sustainable Development and is reading a DPhil in the School of Geography and the Environment at University of Oxford on a project looking at nutrient cycling in tropical forests and savannas in Africa and Asia. She is actively researching and workshopping how art and science can come together through participatory interventions to roll out research more meaningfully and urgently in the world.
+Neha Mohanbabu is a postdoctoral researcher at Utrecht University. She is broadly interested in understanding how species interactions and ecosystem functions are influenced by ongoing global changes and biodiversity loss. Her research uses theoretical models, experimental data, observational field data, and more recently, remote sensing techniques to study both spatial and temporal trends in responses of plant communities.
 
 *Keywords:* `r member$keywords`
 
-*Study sites:* `r member$sites`
 
 ```{r assembling icons, echo=F, message=F, warning=F}
 icons <- read.csv("cat_buttons.csv")
@@ -72,3 +71,5 @@ for (i in 1:nrow(icons)) {
 ::: {style="text-align: center;"}
 [{{< iconify bi icon-park-outline:return>}} Back to member directory](../index.qmd)
 :::
+
+---
