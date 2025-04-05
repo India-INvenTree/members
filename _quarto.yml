@@ -3,13 +3,14 @@ project:
   output-dir: docs
 
 website:
-  title: "Member directory" 
+  title: "INvenTree"
   navbar:
-    title: false  
+    logo-href: https://india-inventree.github.io 
+    # title: false  
     pinned: true
     left:
-       - href: https://india-inventree.github.io/
-         text: INvenTree
+      #  - href: https://india-inventree.github.io/
+      #    text: INvenTree
        - href: https://india-inventree.github.io/resources.html
          text: "Resources"
          icon: book
