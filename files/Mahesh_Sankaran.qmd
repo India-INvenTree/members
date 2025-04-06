@@ -37,9 +37,7 @@ cat_vals$category <- rownames(cat_vals)
 **`r member$institution`**  
 Email: [`r member$email`](mailto:`r member$email`)
 
-Mahesh Sankaran heads the Biodiversity and Ecosystems Ecology Research group at the National Centre for Biological Sciences, Bengaluru. 
-His research focuses on understanding interactions and feedbacks between climate, biogeochemistry, fires and herbivory, and ecosystem properties. 
-He focuses mainly on savannas and grasslands in Africa and India.
+Mahesh Sankaran heads the Biodiversity and Ecosystems Ecology Research group at the National Centre for Biological Sciences, Bengaluru. His research focuses on understanding interactions and feedbacks between climate, biogeochemistry, fires and herbivory, and ecosystem properties. He works across a range of ecosystems from grasslands and savannas to forests.
 
 *Keywords:* `r member$keywords`
 
