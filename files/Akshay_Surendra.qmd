@@ -1,15 +1,15 @@
 ---
-title: "Tanaya Nair"
+title: "Akshay Surendra"
 categories: 
- - current working group
- - PhD student
+ - past working group
+ - postdoc
 ---
 
 ```{r echo=F, message=F, warning=F}
 memberlist <- read.csv("member_list.csv")
 # memberlist <- read.csv("files/member_list.csv")
 
-memberid <- "M3" # THIS NEEDS TO BE MANUALLY SET
+memberid <- "M5" # THIS NEEDS TO BE MANUALLY SET
 
 member <- memberlist[which(memberlist$memberID == memberid), ]
 
@@ -37,11 +37,10 @@ cat_vals$category <- rownames(cat_vals)
 **`r member$institution`**\
 Email: [`r member$email`](mailto:`r member$email`)
 
-Tanaya Nair (she/her) is a scholar at the Oxford India Centre for Sustainable Development and is reading a DPhil in the School of Geography and the Environment at University of Oxford. Her project is on measuring nutrient flows in tropical forests and savannas in Africa and Asia. Besides this, she is actively researching and workshopping how art and science can come together through participatory interventions to roll out research more meaningfully and urgently in the world.
+Akshay Surendra is a community ecologist interested in forests and birds, ecological restoration and conservation science. 
 
 *Keywords:* `r member$keywords`
 
-*Study sites:* `r member$sites`
 
 ```{r assembling icons, echo=F, message=F, warning=F}
 icons <- read.csv("cat_buttons.csv")
@@ -73,3 +72,4 @@ for (i in 1:nrow(icons)) {
 ::: {style="text-align: center;"}
 [{{< iconify bi icon-park-outline:return>}} Back to member directory](../index.qmd)
 :::
+---
