@@ -4,6 +4,7 @@ listing:
     contents: 
         - "files/*.qmd"
     type: grid
+    fields: [image, title, categories]
     categories: true
     grid-columns: 4
     image-height: 160px
