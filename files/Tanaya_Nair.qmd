@@ -1,7 +1,7 @@
 ---
 title: "Tanaya Nair"
 categories: 
- - current working group
+ - working group
  - PhD student
 ---
 

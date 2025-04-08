@@ -1,7 +1,7 @@
 ---
 title: "Neha Mohanbabu"
 categories: 
- - current working group
+ - working group
  - postdoc
 ---
 

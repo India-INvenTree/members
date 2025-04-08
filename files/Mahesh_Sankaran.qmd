@@ -1,7 +1,7 @@
 ---
 title: "Mahesh Sankaran" #THIS NEEDS TO BE MANUALLY SET
 categories: 
- - current working group
+ - working group
  - faculty
 ---
 
