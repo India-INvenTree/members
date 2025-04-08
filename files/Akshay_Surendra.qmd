@@ -26,21 +26,19 @@ colnames(cat_vals) <- "value"
 cat_vals$category <- rownames(cat_vals)
 ```
 
-::::{.columns}
-:::{.column style="padding-right: 30px;"}
-![`r paste0(member$first.name, " ", member$last.name)`](`r paste0("member_profiles/", memberid,".jpg")`){.circular-photo}
-<br>
-<!-- [{{< iconify bi mdi:email size=1.1em >}} testmember@fakeuniversity.edu](mailto:testmember@fakeuniversity.edu){.btn .btn-outline-primary}  -->
+::: columns
+::: {.column style="padding-right: 30px;"}
+![r paste0(member\$first.name, " ", member\$last.name)](%60r%20paste0(%22member_profiles/%22,%20memberid,%22.jpg%22)%60){.circular-photo} <br> <!-- [{{< iconify bi mdi:email size=1.1em >}} testmember@fakeuniversity.edu](mailto:testmember@fakeuniversity.edu){.btn .btn-outline-primary}  -->
 :::
-:::{.column}
-**`r member$position`**\
-**`r member$institution`**\
-Email: [`r member$email`](mailto:`r member$email`)
 
-Akshay Surendra is a community ecologist interested in forests and birds, ecological restoration and conservation science. 
+::: column
+**`r member$position`**\
+
+Email: [`r member$email`](mailto:%60r%20member$email%60)
+
+Akshay Surendra is a community ecologist interested in forests and birds, ecological restoration and conservation science.
 
 *Keywords:* `r member$keywords`
-
 
 ```{r assembling icons, echo=F, message=F, warning=F}
 icons <- read.csv("cat_buttons.csv")
@@ -72,4 +70,5 @@ for (i in 1:nrow(icons)) {
 ::: {style="text-align: center;"}
 [{{< iconify bi icon-park-outline:return>}} Back to member directory](../index.qmd)
 :::
----
+
+------------------------------------------------------------------------
