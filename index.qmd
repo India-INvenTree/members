@@ -10,5 +10,5 @@ listing:
     image-height: 160px
     image-placeholder: "member_profiles/placeholder.png"
 title-block-banner-color: "#ffffff"
-title-block-banner: "#6ab04c"
+title-block-banner: "#7d6a2a"
 ---
