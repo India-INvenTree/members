@@ -21,7 +21,7 @@ cats <- names(member[which(member %nin% c(NA, "", " "))])
 cats <- cats[which(cats %nin% c("memberID", "first.name", "last.name", "institution", "email", "position", "keywords", "sites", "career.stage", "inventree.role"))]
 
 # make this a long df
-cat_vals <- as.data.frame(t(member[, cats]))
+cat_vals <- as.data.frame(t(member[, cats, drop = F]))
 colnames(cat_vals) <- "value"
 cat_vals$category <- rownames(cat_vals)
 ```
