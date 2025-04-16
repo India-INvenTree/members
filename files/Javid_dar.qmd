@@ -2,7 +2,7 @@
 title: "Javid Dar" #THIS NEEDS TO BE MANUALLY SET
 categories: 
  - member
- - assistant professor
+ - faculty
 ---
 
 ```{r echo=F, message=F, warning=F}
@@ -35,7 +35,7 @@ cat_vals$category <- rownames(cat_vals)
 :::{.column}
 **`r member$position`**\
 **`r member$institution`**\
-Email: [`r member$email`](mailto:%60r%20member$email%60)
+Email: [`r member$email`](mailto:`r member$email`)
 
 I am working as an Assistant Professor and heads the TEaM (Terrestrial Ecology and Modelling) Lab group at the Department of Environmental Science and Engineering, SRM University-AP. My research focuses on monitoring and modelling the biodiversity, and carbon and nitrogen dynamics in temperate and tropical forests in response to climate change.
 
@@ -73,4 +73,5 @@ for (i in 1:nrow(icons)) {
 ::: {style="text-align: center;"}
 [{{< iconify bi icon-park-outline:return>}} Back to member directory](../index.qmd)
 :::
----
+
+------------------------------------------------------------------------

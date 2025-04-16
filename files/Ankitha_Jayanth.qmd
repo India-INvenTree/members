@@ -2,7 +2,7 @@
 title: "Ankitha Jayanth" #THIS NEEDS TO BE MANUALLY SET
 categories: 
  - working group
- - reseach assistant
+ - student
 ---
 
 ```{r echo=F, message=F, warning=F}
@@ -35,7 +35,7 @@ cat_vals$category <- rownames(cat_vals)
 :::{.column}
 **`r member$position`**\
 **`r member$institution`**\
-Email: [`r member$email`](mailto:%60r%20member$email%60)
+Email: [`r member$email`](mailto:`r member$email`)
 
 Ankitha Jayanth is interested in focusing on how land use change can affect bird habitat and nesting choices. She is also interested in making fundamental ecological data more accessible to allow for better collaborative and comprehensive based studies.
 

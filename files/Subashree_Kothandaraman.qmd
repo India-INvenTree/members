@@ -2,7 +2,7 @@
 title: "Subashree Kothandaraman" #THIS NEEDS TO BE MANUALLY SET
 categories: 
  - member
- - assistant professor
+ - faculty
 ---
 
 ```{r echo=F, message=F, warning=F}
@@ -35,7 +35,7 @@ cat_vals$category <- rownames(cat_vals)
 :::{.column}
 **`r member$position`**\
 **`r member$institution`**\
-Email: [`r member$email`](mailto:%60r%20member$email%60)
+Email: [`r member$email`](mailto:`r member$email`)
 
 I am an Assistant Professor at the Department of Environmental Science and Engineering at SRM University-AP. My research focuses on understanding ecosystem responses to climate change and land-atmosphere interactions.
 

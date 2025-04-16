@@ -35,7 +35,7 @@ cat_vals$category <- rownames(cat_vals)
 :::{.column}
 **`r member$position`**\
 **`r member$institution`**\
-Email: [`r member$email`](mailto:%60r%20member$email%60)
+Email: [`r member$email`](mailto:`r member$email`)
 
 Abhishek is an engineer turned ecologist, keen on plant-animal interactions and plant community ecology. He has previously researched these themes in Anamalais and in Narcondam. Currently pursuing a PhD, he is exploring the evolution of woody plants in the Western Ghats. He has a soft spot for Ficus species and large old trees and would eventually like to work towards forest restoration.
 

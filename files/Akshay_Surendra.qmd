@@ -36,7 +36,7 @@ cat_vals$category <- rownames(cat_vals)
 ::: column
 **`r member$position`**\
 
-Email: [`r member$email`](mailto:%60r%20member$email%60)
+Email: [`r member$email`](mailto:`r member$email`)
 
 Akshay Surendra is a community ecologist interested in forests and birds, ecological restoration and conservation science.
 

@@ -2,7 +2,7 @@
 title: "Navendu Page" #THIS NEEDS TO BE MANUALLY SET
 categories: 
  - member
- - scientist
+ - faculty
 ---
 
 ```{r echo=F, message=F, warning=F}
@@ -35,7 +35,7 @@ cat_vals$category <- rownames(cat_vals)
 :::{.column}
 **`r member$position`**\
 **`r member$institution`**\
-Email: [`r member$email`](mailto:%60r%20member$email%60)
+Email: [`r member$email`](mailto:`r member$email`)
 
 Navendu Page is a Scientist at the Thackeray Wildlife Foundation. He is a plant ecologist and a field botanist. He devotes most of time exploring plants across different parts of the country and learning about their ecology, distribution and taxonomy. He also has a keen interest in developing user-friendly resources for plant identification.
 
