@@ -1,0 +1,90 @@
+---
+title: "Mohammed Latif Khan" #THIS NEEDS TO BE MANUALLY SET
+categories: 
+ - member
+ - senior professor
+---
+
+```{r echo=F, message=F, warning=F}
+memberlist <- read.csv("member_list.csv")
+# memberlist <- read.csv("files/member_list.csv")
+
+memberid <- "M9" # THIS NEEDS TO BE MANUALLY SET
+
+member <- memberlist[which(memberlist$memberID == memberid), ]
+
+`%nin%` <- Negate(`%in%`)
+
+# what information categories do we have?
+cats <- names(member[which(member %nin% c(NA, "", " "))])
+# remove memberid, first.name, last.name, institution, email
+cats <- cats[which(cats %nin% c("memberID", "first.name", "last.name", "institution", "email", "position", "keywords", "sites", "career.stage", "inventree.role"))]
+
+# make this a long df
+cat_vals <- as.data.frame(t(member[, cats]))
+colnames(cat_vals) <- "value"
+cat_vals$category <- rownames(cat_vals)
+```
+
+::::{.columns}
+:::{.column style="padding-right: 30px;"}
+![`r paste0(member$first.name, " ", member$last.name)`](`r paste0("member_profiles/", memberid,".jpg")`){.circular-photo}
+<br>
+<!-- [{{< iconify bi mdi:email size=1.1em >}} testmember@fakeuniversity.edu](mailto:testmember@fakeuniversity.edu){.btn .btn-outline-primary}  -->
+:::
+:::{.column}
+**`r member$position`**\
+**`r member$institution`**\
+Email: [`r member$email`](mailto:%60r%20member$email%60)
+
+Over the course of my career, I have demonstrated exceptional dedication to the
+study of forest regeneration, biodiversity, and ecosystem services, addressing critical
+issues such as carbon sequestration, plant invasion and the impact of climate change
+on biodiversity. I have published 227 articles in prestigious journals such as Nature (3
+articles), PNAS, USA (2 articles), Nature Ecology &amp; Evolution (2 articles), Nature
+Communication (2 articles), Nature Plants, Science Advances, Global Ecology and
+Biogeography (2 articles), Journal of Ecology, Nature Scientific Report, Critical Review
+in Biotechnology, The Science of the Total Environment, Biotropica, Conservation
+Biology etc., five books and 66 chapters. My scholarly achievements have been
+recognized on a global scale, earning me prestigious accolades, fellowships, and
+awards. I received 7th Visitor Award for Research in Biological Sciences, conferred by
+the President of India on 10th July, 2023. I am fellow of National Academy of
+Agricultural Sciences, New Delhi, Linnean Society, London, UK, Royal Society of
+Biology, London, UK. I am also featured in the list of 2% Scientists published by
+Stanford University, USA.
+
+*Keywords:* `r member$keywords`
+
+*Study sites:* `r member$sites`
+
+```{r assembling icons, echo=F, message=F, warning=F}
+icons <- read.csv("cat_buttons.csv")
+# icons <- read.csv("files/cat_buttons.csv")
+
+# merge these with the categories
+icons <- merge(cat_vals, icons, by = "category", all.x = T)
+
+# make an empty string to add lines to
+icon_string <- ""
+
+for (i in 1:nrow(icons)) {
+    cat <- icons$category[i]
+    title <- icons$title[i]
+    icon <- icons$icon[i]
+    link <- icons$value[i]
+    text <- paste0("[{{< iconify bi ", icon, " size=1.1em title='", title, "' >}} ", title, "](", link, "){.btn .btn-outline-primary}  ")
+    # add this to the string
+    icon_string <- paste0(icon_string, text)
+}
+```
+
+`r icon_string`
+:::
+:::
+
+------------------------------------------------------------------------
+
+::: {style="text-align: center;"}
+[{{< iconify bi icon-park-outline:return>}} Back to member directory](../index.qmd)
+:::
+
