@@ -1,7 +1,6 @@
 ---
 title: "Mohammed Latif Khan" #THIS NEEDS TO BE MANUALLY SET
 categories: 
- - member
  - faculty
 ---
 

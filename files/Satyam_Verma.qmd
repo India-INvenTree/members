@@ -1,7 +1,6 @@
 ---
 title: "Satyam Verma" #THIS NEEDS TO BE MANUALLY SET
 categories: 
- - member
  - faculty
 ---
 

@@ -1,7 +1,6 @@
 ---
 title: "Subashree Kothandaraman" #THIS NEEDS TO BE MANUALLY SET
 categories: 
- - member
  - faculty
 ---
 

@@ -1,7 +1,6 @@
 ---
 title: "Javid Dar" #THIS NEEDS TO BE MANUALLY SET
 categories: 
- - member
  - faculty
 ---
 

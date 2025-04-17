@@ -1,7 +1,6 @@
 ---
 title: "Navendu Page" #THIS NEEDS TO BE MANUALLY SET
 categories: 
- - member
  - scientist
 ---
 
