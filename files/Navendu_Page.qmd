@@ -2,7 +2,7 @@
 title: "Navendu Page" #THIS NEEDS TO BE MANUALLY SET
 categories: 
  - member
- - faculty
+ - scientist
 ---
 
 ```{r echo=F, message=F, warning=F}
