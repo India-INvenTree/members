@@ -9,6 +9,7 @@ listing:
     grid-columns: 4
     image-height: 160px
     image-placeholder: "member_profiles/placeholder.png"
+    max-items: 20
 title-block-banner-color: "#ffffff"
 title-block-banner: "#7d6a2a"
 ---
