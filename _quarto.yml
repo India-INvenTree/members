@@ -42,14 +42,14 @@ website:
   page-footer:
     border: true
     left: "&#169; 2025 INvenTree"
-    center:
-      - text: "[Code of Conduct](https://india-inventree.github.io/coc)"
-        href: https://india-inventree.github.io/coc.html
-        icon: check-circle
-        target: "_new"
-      - text: "Accessibility"
-        href: https://india-inventree.github.io/accessibility
-        icon: universal-access-circle
+    center: "[Code of Conduct](https://india-inventree.github.io/coc) | [Attribution](https://india-inventree.github.io/attribution) | [Privacy](https://india-inventree.github.io/privacy) | [Accessibility](https://india-inventree.github.io/accessibility)"
+      # - text: "[Code of Conduct](https://india-inventree.github.io/coc)"
+      #   href: https://india-inventree.github.io/coc.html
+      #   icon: check-circle
+      #   target: "_new"
+      # - text: "Accessibility"
+      #   href: https://india-inventree.github.io/accessibility
+      #   icon: universal-access-circle
       # - text: License
       #   href: license.qmd
     right: "made with ︎♥️ & [Quarto](https://quarto.org)"
