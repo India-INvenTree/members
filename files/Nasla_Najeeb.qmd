@@ -1,5 +1,5 @@
 ---
-title: "Nalsa Najeeb" #THIS NEEDS TO BE MANUALLY SET
+title: "Nasla Najeeb" #THIS NEEDS TO BE MANUALLY SET
 categories: 
 
  - student
