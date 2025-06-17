@@ -1,7 +1,7 @@
 ---
 title: "Anand Osuri" #THIS NEEDS TO BE MANUALLY SET
 categories: 
- - Scientist
+ - scientist
 ---
 
 ```{r echo=F, message=F, warning=F}
