@@ -2,7 +2,7 @@
 title: "Nasla Najeeb" #THIS NEEDS TO BE MANUALLY SET
 categories: 
 
- - student
+ - PhD student
 ---
 
 ```{r echo=F, message=F, warning=F}

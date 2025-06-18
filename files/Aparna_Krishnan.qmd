@@ -2,7 +2,7 @@
 title: "Aparna Krishnan" #THIS NEEDS TO BE MANUALLY SET
 categories: 
  - working group
- - student
+ - PhD student
 ---
 
 ```{r echo=F, message=F, warning=F}

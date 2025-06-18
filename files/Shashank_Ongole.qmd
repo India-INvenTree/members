@@ -2,7 +2,7 @@
 title: "Shashank Ongole" #THIS NEEDS TO BE MANUALLY SET
 categories: 
  - past working group
- - student
+ - PhD student
 ---
 
 ```{r echo=F, message=F, warning=F}
