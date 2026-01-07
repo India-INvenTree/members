@@ -1,5 +1,5 @@
 ---
-title: "Rajiv Kumar Chaturvedi" #THIS NEEDS TO BE MANUALLY SET
+title: "Anzar Khuroo" #THIS NEEDS TO BE MANUALLY SET
 categories: 
  - faculty
 ---
@@ -8,7 +8,7 @@ categories:
 memberlist <- read.csv("member_list.csv")
 # memberlist <- read.csv("files/member_list.csv")
 
-memberid <- "M28" # THIS NEEDS TO BE MANUALLY SET
+memberid <- "M30" # THIS NEEDS TO BE MANUALLY SET
 
 member <- memberlist[which(memberlist$memberID == memberid), ]
 
@@ -36,13 +36,7 @@ cat_vals$category <- rownames(cat_vals)
 **`r member$institution`**\
 Email: [`r member$email`](mailto:`r member$email`)
 
-Rajiv Kumar Chaturvedi is an Associate Professor at BITS
-Pilani, K. K. Birla Goa Campus, where he leads research on climate change, forests, and
-environmental policy. His work focuses on the interactions between climate, forests, and
-ecosystems, with an emphasis on greenhouse gas inventories, land-use change, and
-climate policy. He has contributed to India’s national communications and biennial
-update reports to the UNFCCC, served as a lead author for IPCC and IPBES assessments,
-and co-developed global climate policy tools.
+I am botanist with main interest in addressing the research questions: what grows where, how, why and when. Currently, I am leading BIOTA (BIOdiversity & TAxonomy) Lab at University of Kashmir.  Over the last two decades, the broad research focus of our group has remained in understanding the patterns of plant diversity and distribution and their underlying ecological processes, with implications in informing conservation, restoration and sustainable strategies. Using quantitative data-synthesis approach, we have recently developed few biodiversity databases (Trees of India; Trees of Global Treelines) and more are in the pipeline. Our group is also maintaining a long-term GLORIA monitoring site in Kashmir Himalaya since last one decade.
 
 *Keywords:* `r member$keywords`
 
@@ -78,5 +72,4 @@ for (i in 1:nrow(icons)) {
 ::: {style="text-align: center;"}
 [{{< iconify bi icon-park-outline:return>}} Back to member directory](../index.qmd)
 :::
-
 
