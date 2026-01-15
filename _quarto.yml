@@ -11,9 +11,17 @@ website:
     left:
       #  - href: https://india-inventree.github.io/
       #    text: INvenTree
-       - href: https://india-inventree.github.io/resources.html
-         text: "Resources"
+       - text: "Resources"
          icon: book
+         menu:
+          - href: https://india-inventree.github.io/resources.html
+            text: "Publications"
+            # icon: folder-fill
+            icon: bookmark
+          - href: "https://tinyurl.com/inventreeapp"
+            text: Paper Explorer
+            icon: compass
+            target: "_new"
        - text: "People"
          icon: person-circle
          menu:
