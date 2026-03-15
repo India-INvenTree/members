@@ -4,6 +4,7 @@ project:
 
 website:
   title: "INvenTree"
+  google-analytics: "G-VQWEDXB42E"
   navbar:
     logo-href: https://india-inventree.github.io 
     # title: false  
