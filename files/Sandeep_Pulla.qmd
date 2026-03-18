@@ -1,7 +1,7 @@
 ---
 title: "Sandeep Pulla" #THIS NEEDS TO BE MANUALLY SET
 categories: 
- - faculty
+ - scientist
 ---
 
 ```{r echo=F, message=F, warning=F}

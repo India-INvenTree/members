@@ -1,7 +1,7 @@
 ---
 title: "Abhishek Gopal" #THIS NEEDS TO BE MANUALLY SET
 categories: 
- - working group
+ - past working group
  - PhD student
 ---
 
