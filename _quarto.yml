@@ -19,7 +19,7 @@ website:
             text: "Publications"
             # icon: folder-fill
             icon: bookmark
-          - href: "https://tinyurl.com/inventreeapp"
+          - href: "https://inventree-paper-explorer.shinyapps.io/inventree_explore_papers_app/"
             text: Paper Explorer
             icon: compass
             target: "_new"
@@ -36,6 +36,9 @@ website:
             target: "_new"
             # icon: mortarboard-fill
             icon: person-badge-fill
+       - href: https://india-inventree.github.io/updates.html
+         text: "Updates"
+         icon: newspaper
        - href: https://india-inventree.github.io/join.html
         # text: "<span class='btn btn-primary'>Click here</span>"
          text: "Get Involved"
