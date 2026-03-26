@@ -2,7 +2,7 @@
 title: "Karun Jose" #THIS NEEDS TO BE MANUALLY SET
 categories: 
  - working group
- - PhD student
+ - scientist
 ---
 
 ```{r echo=F, message=F, warning=F}

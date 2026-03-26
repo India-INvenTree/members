@@ -1,5 +1,5 @@
 ---
-title: "Shashank Ongole" #THIS NEEDS TO BE MANUALLY SET
+title: "Shasank Ongole" #THIS NEEDS TO BE MANUALLY SET
 categories: 
  - past working group
  - PhD student

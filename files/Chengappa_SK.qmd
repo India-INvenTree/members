@@ -1,5 +1,5 @@
 ---
-title: "Chengappa SK" #THIS NEEDS TO BE MANUALLY SET
+title: "Chengappa S. K." #THIS NEEDS TO BE MANUALLY SET
 categories: 
  - project manager
 ---
@@ -63,7 +63,7 @@ for (i in 1:nrow(icons)) {
 }
 ```
 
-`r icon_string`
+
 :::
 :::
 

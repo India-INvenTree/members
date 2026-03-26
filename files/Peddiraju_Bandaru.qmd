@@ -1,7 +1,7 @@
 ---
 title: "Peddiraju Bandaru" #THIS NEEDS TO BE MANUALLY SET
 categories: 
- - scientist
+ - PhD student
 ---
 
 ```{r echo=F, message=F, warning=F}

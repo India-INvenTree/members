@@ -1,5 +1,5 @@
 ---
-title: "A.P. Madhavan " #THIS NEEDS TO BE MANUALLY SET
+title: "A. P. Madhavan " #THIS NEEDS TO BE MANUALLY SET
 categories: 
  - research assistant
 ---
@@ -36,7 +36,7 @@ cat_vals$category <- rownames(cat_vals)
 **`r member$institution`**\
 Email: [`r member$email`](mailto:`r member$email`)
 
-A.P Madhavan is a researcher within NCF working for the Ecosystem Recovery Monitoring project (ERM) under the aegis of the ERA (ecological restoration alliance). He aids in expanding understandinding of long-term secondary forest recovery dynamics across landscapes and management types. He is interested to understand how empirical and observational information can be bridged to expand the restoration narrative.
+A. P. Madhavan is a researcher within NCF working for the Ecosystem Recovery Monitoring project (ERM) under the aegis of the ERA (ecological restoration alliance). He aids in expanding understandinding of long-term secondary forest recovery dynamics across landscapes and management types. He is interested to understand how empirical and observational information can be bridged to expand the restoration narrative.
 
 
 *Keywords:* `r member$keywords`

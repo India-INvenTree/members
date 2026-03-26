@@ -1,5 +1,5 @@
 ---
-title: "Vijay Kumar S" #THIS NEEDS TO BE MANUALLY SET
+title: "Vijay Kumar S." #THIS NEEDS TO BE MANUALLY SET
 categories: 
  - project manager
 ---
