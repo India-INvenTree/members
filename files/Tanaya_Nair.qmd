@@ -37,7 +37,7 @@ cat_vals$category <- rownames(cat_vals)
 **`r member$institution`**\
 Email: [`r member$email`](mailto:`r member$email`)
 
-Tanaya Nair (she/her) is a scholar at the Oxford India Centre for Sustainable Development and is reading a DPhil in the School of Geography and the Environment at University of Oxford. Her project is on measuring nutrient flows in tropical forests and savannas in Africa and Asia. Besides this, she is actively researching and workshopping how art and science can come together through participatory interventions to roll out research more meaningfully and urgently in the world.
+Tanaya Nair (she/her) is a scholar at the Oxford India Centre for Sustainable Development and is reading a DPhil in the School of Geography and the Environment at University of Oxford. Her project is on measuring nutrient flows in tropical forests and savannas in Asia and Africa. Besides this, she is actively researching and workshopping how art, science, and indeginous knowledge systems can come together through participatory interventions to roll out research more meaningfully and urgently in the world.
 
 *Keywords:* `r member$keywords`
 
