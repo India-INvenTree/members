@@ -41,7 +41,7 @@ I am a plant ecologist who is broadly interested in understanding how plant comm
 
 *Keywords:* `r member$keywords`
 
-*Study sites:* `r member$sites`
+
 
 ```{r assembling icons, echo=F, message=F, warning=F}
 icons <- read.csv("cat_buttons.csv")
