@@ -1,7 +1,6 @@
 ---
 title: "Aaroha Malagi" #THIS NEEDS TO BE MANUALLY SET
 categories: 
- - member
  - PhD student 
 ---
 
