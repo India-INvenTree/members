@@ -1,5 +1,5 @@
 ---
-title: "Yogendra K" #THIS NEEDS TO BE MANUALLY SET
+title: "Yogendra K." #THIS NEEDS TO BE MANUALLY SET
 categories: 
  - faculty
 ---
