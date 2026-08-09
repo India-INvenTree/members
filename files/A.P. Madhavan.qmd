@@ -2,6 +2,7 @@
 title: "A. P. Madhavan " #THIS NEEDS TO BE MANUALLY SET
 categories: 
  - research assistant
+ - data owner
 ---
 
 ```{r echo=F, message=F, warning=F}
@@ -41,7 +42,10 @@ A. P. Madhavan is a researcher within NCF working for the Ecosystem Recovery Mon
 
 *Keywords:* `r member$keywords`
 
-*Study sites:* `r member$sites`
+*Study sites:* `r member$sites`  
+
+[Explore our sites](https://inventree-paper-explorer.shinyapps.io/inventree_plots_explorer_v1/?data_owner=AP%20Madhavan#map){target=_blank}{.btn .btn-primary}    
+
 
 ```{r assembling icons, echo=F, message=F, warning=F}
 icons <- read.csv("cat_buttons.csv")

@@ -3,6 +3,7 @@ title: "Akshay Surendra"
 categories: 
  - past working group
  - postdoc
+ - data owner
 ---
 
 ```{r echo=F, message=F, warning=F}
@@ -40,7 +41,10 @@ Email: [`r member$email`](mailto:`r member$email`)
 
 Akshay Surendra is a community ecologist interested in forests and birds, ecological restoration and conservation science.
 
-*Keywords:* `r member$keywords`
+*Keywords:* `r member$keywords`  
+
+[Explore our sites](https://inventree-paper-explorer.shinyapps.io/inventree_plots_explorer_v1/?data_owner=Akshay%20Surendra#map){target=_blank}{.btn .btn-primary}    
+
 
 ```{r assembling icons, echo=F, message=F, warning=F}
 icons <- read.csv("cat_buttons.csv")
