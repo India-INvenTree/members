@@ -43,7 +43,7 @@ Jayashree Ratnam is currently at the National Centre for Biological Sciences, Ta
 
 *Study sites:* `r member$sites`  
 
-[Explore our sites](https://inventree-paper-explorer.shinyapps.io/inventree_plots_explorer_v1/?data_owner=Jayashree%20Ratnam#map){target=_blank}{.btn .btn-primary}    
+[Explore our sites](https://inventree-paper-explorer.shinyapps.io/inventree_plots_explorer_v1/?data_owner=Jayashree%20Ratnam#map){.btn .btn-primary target=_blank}    
 
 
 ```{r assembling icons, echo=F, message=F, warning=F}

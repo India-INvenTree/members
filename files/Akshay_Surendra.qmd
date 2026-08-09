@@ -43,7 +43,7 @@ Akshay Surendra is a community ecologist interested in forests and birds, ecolog
 
 *Keywords:* `r member$keywords`  
 
-[Explore our sites](https://inventree-paper-explorer.shinyapps.io/inventree_plots_explorer_v1/?data_owner=Akshay%20Surendra#map){target=_blank}{.btn .btn-primary}    
+[Explore our sites](https://inventree-paper-explorer.shinyapps.io/inventree_plots_explorer_v1/?data_owner=Akshay%20Surendra#map){target=_blank .btn .btn-primary}    
 
 
 ```{r assembling icons, echo=F, message=F, warning=F}

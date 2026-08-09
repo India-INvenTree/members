@@ -44,7 +44,7 @@ Mahesh Sankaran heads the Biodiversity and Ecosystems Ecology Research group at 
 
 *Study sites:* `r member$sites`  
 
-[Explore our sites](https://inventree-paper-explorer.shinyapps.io/inventree_plots_explorer_v1/?data_owner=Mahesh%20Sankaran#map){target=_blank}{.btn .btn-primary}    
+[Explore our sites](https://inventree-paper-explorer.shinyapps.io/inventree_plots_explorer_v1/?data_owner=Mahesh%20Sankaran#map){target=_blank .btn .btn-primary}    
 
 ```{r assembling icons, echo=F, message=F, warning=F}
 icons <- read.csv("cat_buttons.csv")

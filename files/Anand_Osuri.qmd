@@ -43,7 +43,7 @@ Anand M Osuri is an ecologist specializing in community ecology, ecosystems ecol
 
 *Study sites:* `r member$sites`  
 
-[Explore our sites](https://inventree-paper-explorer.shinyapps.io/inventree_plots_explorer_v1/?data_owner=Anand%20Osuri#map){target=_blank}{.btn .btn-primary}    
+[Explore our sites](https://inventree-paper-explorer.shinyapps.io/inventree_plots_explorer_v1/?data_owner=Anand%20Osuri#map){target=_blank .btn .btn-primary}    
 
 
 ```{r assembling icons, echo=F, message=F, warning=F}
