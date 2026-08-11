@@ -3,6 +3,7 @@ title: "Nasla Najeeb" #THIS NEEDS TO BE MANUALLY SET
 categories: 
  - working group 
  - PhD student
+ - data owner
 ---
 
 ```{r echo=F, message=F, warning=F}
@@ -41,7 +42,9 @@ Nasla Najeeb is a PhD scholar at BITS Pilani K K Birla Goa Campus, working on fo
 
 *Keywords:* `r member$keywords`
 
-*Study sites:* `r member$sites`
+*Study sites:* `r member$sites`  
+
+[Explore our sites](https://inventree-paper-explorer.shinyapps.io/inventree_plots_explorer_v1/?data_owner=Nasla%20Najeeb#map){.btn .btn-primary target=_blank}  
 
 ```{r assembling icons, echo=F, message=F, warning=F}
 icons <- read.csv("cat_buttons.csv")

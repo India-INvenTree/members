@@ -2,6 +2,7 @@
 title: "Sreejith Kalpuzha" #THIS NEEDS TO BE MANUALLY SET
 categories: 
  - faculty
+ - data owner
 ---
 
 ```{r echo=F, message=F, warning=F}
@@ -41,7 +42,9 @@ Dr. Sreejith Kalpuzha Ashtamoorthy is a Principal Scientist and Head of the Depa
 
 *Keywords:* `r member$keywords`
 
-*Study sites:* `r member$sites`
+*Study sites:* `r member$sites`  
+
+[Explore our sites](https://inventree-paper-explorer.shinyapps.io/inventree_plots_explorer_v1/?data_owner=KA%20Sreejith#map){.btn .btn-primary target=_blank}
 
 ```{r assembling icons, echo=F, message=F, warning=F}
 icons <- read.csv("cat_buttons.csv")

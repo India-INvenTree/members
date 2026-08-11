@@ -2,6 +2,7 @@
 title: "Sudhakar Reddy Chintala" #THIS NEEDS TO BE MANUALLY SET
 categories: 
  - scientist
+ - data owner
 ---
 
 ```{r echo=F, message=F, warning=F}
@@ -42,7 +43,9 @@ specializing in interdisciplinary biodiversity research. His work integrates geo
 
 *Keywords:* `r member$keywords`
 
-*Study sites:* `r member$sites`
+*Study sites:* `r member$sites`  
+
+[Explore our sites](https://inventree-paper-explorer.shinyapps.io/inventree_plots_explorer_v1/?data_owner=Sudhakar%20Reddy%20Chintala#map){.btn .btn-primary target=_blank}  
 
 ```{r assembling icons, echo=F, message=F, warning=F}
 icons <- read.csv("cat_buttons.csv")
