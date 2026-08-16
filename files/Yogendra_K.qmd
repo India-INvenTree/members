@@ -2,6 +2,7 @@
 title: "Yogendra K." #THIS NEEDS TO BE MANUALLY SET
 categories: 
  - faculty
+ - data owner
 ---
 
 ```{r echo=F, message=F, warning=F}
@@ -40,7 +41,9 @@ Dr. Yogendra K is Professor of Environmental Science and Director of the School 
 
 *Keywords:* `r member$keywords`
 
-*Study sites:* `r member$sites`
+*Study sites:* `r member$sites`  
+
+[Explore our sites](https://inventree-paper-explorer.shinyapps.io/inventree_plots_explorer_v1/?data_owner=Yogendra%20K#map){.btn .btn-primary target=_blank}  
 
 ```{r assembling icons, echo=F, message=F, warning=F}
 icons <- read.csv("cat_buttons.csv")

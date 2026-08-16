@@ -2,6 +2,7 @@
 title: "Divya Mudappa" #THIS NEEDS TO BE MANUALLY SET
 categories: 
  - scientist
+ - data owner
 ---
 
 ```{r echo=F, message=F, warning=F}
@@ -41,7 +42,10 @@ Divya Mudappa is interested in the ecology, conservation, and restoration of tro
 
 *Keywords:* `r member$keywords`
 
-*Study sites:* `r member$sites`
+*Study sites:* `r member$sites`  
+
+[Explore our sites](https://inventree-paper-explorer.shinyapps.io/inventree_plots_explorer_v1/?data_owner=Divya%20Mudappa#map){target=_blank .btn .btn-primary}    
+
 
 ```{r assembling icons, echo=F, message=F, warning=F}
 icons <- read.csv("cat_buttons.csv")

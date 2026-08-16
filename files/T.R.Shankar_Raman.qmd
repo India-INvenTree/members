@@ -2,6 +2,7 @@
 title: "T. R. Shankar Raman" #THIS NEEDS TO BE MANUALLY SET
 categories: 
  - scientist
+ - data owner
 ---
 
 ```{r echo=F, message=F, warning=F}
@@ -41,7 +42,9 @@ T. R. Shankar Raman is a writer and wildlife scientist with the Nature Conservat
 
 *Keywords:* `r member$keywords`
 
-*Study sites:* `r member$sites`
+*Study sites:* `r member$sites`  
+
+[Explore our sites](https://inventree-paper-explorer.shinyapps.io/inventree_plots_explorer_v1/?data_owner=TR%20Shankar%20Raman#map){.btn .btn-primary target=_blank}
 
 ```{r assembling icons, echo=F, message=F, warning=F}
 icons <- read.csv("cat_buttons.csv")

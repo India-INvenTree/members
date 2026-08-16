@@ -2,6 +2,7 @@
 title: "Jayashree Ratnam" #THIS NEEDS TO BE MANUALLY SET
 categories: 
  - faculty
+ - data owner
 ---
 
 ```{r echo=F, message=F, warning=F}
@@ -40,7 +41,10 @@ Jayashree Ratnam is currently at the National Centre for Biological Sciences, Ta
 
 *Keywords:* `r member$keywords`
 
-*Study sites:* `r member$sites`
+*Study sites:* `r member$sites`  
+
+[Explore our sites](https://inventree-paper-explorer.shinyapps.io/inventree_plots_explorer_v1/?data_owner=Jayashree%20Ratnam#map){.btn .btn-primary target=_blank}    
+
 
 ```{r assembling icons, echo=F, message=F, warning=F}
 icons <- read.csv("cat_buttons.csv")
