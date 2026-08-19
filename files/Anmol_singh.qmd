@@ -1,5 +1,5 @@
 ---
-title: "Anmol_Singh" #THIS NEEDS TO BE MANUALLY SET
+title: "Anmol Singh" #THIS NEEDS TO BE MANUALLY SET
 categories: 
  - PhD student
 ---
