@@ -1,14 +1,14 @@
 ---
-title: "Parth Sarathi Roy" #THIS NEEDS TO BE MANUALLY SET
+title: "Anmol_Singh" #THIS NEEDS TO BE MANUALLY SET
 categories: 
- - scientist
+ - PhD student
 ---
 
 ```{r echo=F, message=F, warning=F}
 memberlist <- read.csv("member_list.csv")
 # memberlist <- read.csv("files/member_list.csv")
 
-memberid <- "M43" # THIS NEEDS TO BE MANUALLY SET
+memberid <- "M46" # THIS NEEDS TO BE MANUALLY SET
 
 member <- memberlist[which(memberlist$memberID == memberid), ]
 
@@ -36,7 +36,7 @@ cat_vals$category <- rownames(cat_vals)
 **`r member$institution`**\
 Email: [`r member$email`](mailto:`r member$email`)
 
-Parth Sarathi Roy is a professional in Earth Observation Science. He specialises in vegetation science, LULCC, biodiversity & climate science. He spent thirty-five years in ISRO/DOS (1977-2012). He was the Chair Professor at the University of Hyderabad (2012-18), an Advisor at ICRISAT (2018 -2020), and a Senior Fellow at WRI (2020-2025).
+Anmol Singh (she/her) is a scholar at Banaras Hindu University, working in the field of forest ecology, biodiversity and ecosystem resilience. Her work primarily focuses on understanding how disturbances such as fire and anthropogenic pressures influence forest structure and composition as well as soil properties in tropical dry deciduous forests.
 
 
 *Keywords:* `r member$keywords`

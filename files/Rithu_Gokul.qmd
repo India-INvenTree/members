@@ -1,14 +1,14 @@
 ---
-title: "Parth Sarathi Roy" #THIS NEEDS TO BE MANUALLY SET
+title: "Rithu Gokul K." #THIS NEEDS TO BE MANUALLY SET
 categories: 
- - scientist
+ - student
 ---
 
 ```{r echo=F, message=F, warning=F}
 memberlist <- read.csv("member_list.csv")
 # memberlist <- read.csv("files/member_list.csv")
 
-memberid <- "M43" # THIS NEEDS TO BE MANUALLY SET
+memberid <- "M45" # THIS NEEDS TO BE MANUALLY SET
 
 member <- memberlist[which(memberlist$memberID == memberid), ]
 
@@ -36,7 +36,7 @@ cat_vals$category <- rownames(cat_vals)
 **`r member$institution`**\
 Email: [`r member$email`](mailto:`r member$email`)
 
-Parth Sarathi Roy is a professional in Earth Observation Science. He specialises in vegetation science, LULCC, biodiversity & climate science. He spent thirty-five years in ISRO/DOS (1977-2012). He was the Chair Professor at the University of Hyderabad (2012-18), an Advisor at ICRISAT (2018 -2020), and a Senior Fellow at WRI (2020-2025).
+Rithu Gokul is a scholar at National Centre for Biological Sciences. His project is in understanding the factors shaping tree growth allometry across Indian forests and formulating regional and site-specific height-diameter equations. His work focuses statistical modelling using bioclimatic variables across environmental gradients to address spatial and ecological questions.
 
 
 *Keywords:* `r member$keywords`

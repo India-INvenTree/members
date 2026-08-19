@@ -1,5 +1,5 @@
 ---
-title: "Parth Sarathi Roy" #THIS NEEDS TO BE MANUALLY SET
+title: "Kukke Prasanna J." #THIS NEEDS TO BE MANUALLY SET
 categories: 
  - scientist
 ---
@@ -8,7 +8,7 @@ categories:
 memberlist <- read.csv("member_list.csv")
 # memberlist <- read.csv("files/member_list.csv")
 
-memberid <- "M43" # THIS NEEDS TO BE MANUALLY SET
+memberid <- "M44" # THIS NEEDS TO BE MANUALLY SET
 
 member <- memberlist[which(memberlist$memberID == memberid), ]
 
@@ -36,14 +36,12 @@ cat_vals$category <- rownames(cat_vals)
 **`r member$institution`**\
 Email: [`r member$email`](mailto:`r member$email`)
 
-Parth Sarathi Roy is a professional in Earth Observation Science. He specialises in vegetation science, LULCC, biodiversity & climate science. He spent thirty-five years in ISRO/DOS (1977-2012). He was the Chair Professor at the University of Hyderabad (2012-18), an Advisor at ICRISAT (2018 -2020), and a Senior Fellow at WRI (2020-2025).
+I am a student of Mathematical Statistics, Ecology, Universe and beyond. I am exploring the ocean of Science using the light of Mathematics.
 
 
 *Keywords:* `r member$keywords`
 
-*Study sites:* `r member$sites`  
-
-<!--[Explore our sites](https://inventree-paper-explorer.shinyapps.io/inventree_plots_explorer_v1/?data_owner=TR%20Shankar%20Raman#map){.btn .btn-primary target=_blank}-->
+*Study sites:* `r member$sites`
 
 ```{r assembling icons, echo=F, message=F, warning=F}
 icons <- read.csv("cat_buttons.csv")
@@ -66,7 +64,7 @@ for (i in 1:nrow(icons)) {
 }
 ```
 
-`r icon_string`
+
 :::
 :::
 
