@@ -33,7 +33,7 @@ website:
             icon: tools
           - text: "Member Directory {{< iconify bi cuia:open-in-new-tab-outline size=1.1em >}}"
             href: "https://india-inventree.github.io/members/"
-            target: "_new"
+            # target: "_new"
             # icon: mortarboard-fill
             icon: person-badge-fill
        - href: https://india-inventree.github.io/updates.html
