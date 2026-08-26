@@ -12,4 +12,5 @@ listing:
     page-size: 20
 title-block-banner-color: "#ffffff"
 title-block-banner: "#7d6a2a"
+include-after-body: category-groups.html
 ---

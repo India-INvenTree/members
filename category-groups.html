@@ -1,0 +1,50 @@
+<script>
+    const groups = {
+        "INvenTree roles": [
+            "working group",
+            "data owner",
+            "past working group"
+        ],
+        "Career stage": [
+            "faculty",
+            "scientist",
+            "postdoc",
+            "project manager",
+            "PhD student",
+            "student",
+            "research assistant"
+        ]
+    };
+
+    const categoryContainer = document.querySelector(".quarto-listing-category");
+
+    if (categoryContainer) {
+        const categories = [...categoryContainer.querySelectorAll(".category")];
+        const allCategory = categories.find(category =>
+            category.dataset.category === ""
+        );
+
+        categoryContainer.replaceChildren();
+
+        if (allCategory) {
+            categoryContainer.append(allCategory);
+        }
+
+        for (const [heading, names] of Object.entries(groups)) {
+            const title = document.createElement("div");
+            title.className = "category-group-title";
+            title.textContent = heading;
+            categoryContainer.append(title);
+
+            for (const name of names) {
+                const category = categories.find(element =>
+                    element.textContent.replace(/\s*\(\d+\)\s*$/, "").trim() === name
+                );
+
+                if (category) {
+                    categoryContainer.append(category);
+                }
+            }
+        }
+    }
+</script>

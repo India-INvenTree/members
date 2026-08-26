@@ -51,3 +51,13 @@
 .center-text {
     text-align: center;
 }
+
+.category-group-title {
+    margin-top: 1rem;
+    font-weight: 700;
+    color: #7d6a2a;
+}
+
+.category-group-title:first-of-type {
+    margin-top: 0.5rem;
+}
